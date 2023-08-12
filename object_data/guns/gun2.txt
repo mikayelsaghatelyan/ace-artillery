@@ -1,0 +1,21 @@
+{
+    "description": "none",
+    "direction absolute": "44-78",
+    "direction main": "18-40",
+    "direction night": "14-61",
+    "direction reserve": "08-75",
+    "gun charges": {
+        "1st": 100,
+        "2nd": 100,
+        "3rd": 100,
+        "4th": 100,
+        "full": 100,
+        "reduced": 100
+    },
+    "h": 3862.733833464035,
+    "id": 2,
+    "name": "gun2",
+    "number of targets": 10,
+    "x": 4901977.1880642045,
+    "y": 8154325.795077328
+}

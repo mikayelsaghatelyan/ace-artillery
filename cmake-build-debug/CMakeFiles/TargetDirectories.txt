@@ -1,0 +1,5 @@
+/home/michael/jetbrains/clion-projects/ace_artillery1_0/cmake-build-debug/CMakeFiles/ace_artillery1_0.dir
+/home/michael/jetbrains/clion-projects/ace_artillery1_0/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/michael/jetbrains/clion-projects/ace_artillery1_0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/michael/jetbrains/clion-projects/ace_artillery1_0/cmake-build-debug/libs/json/CMakeFiles/edit_cache.dir
+/home/michael/jetbrains/clion-projects/ace_artillery1_0/cmake-build-debug/libs/json/CMakeFiles/rebuild_cache.dir
