@@ -1,0 +1,110 @@
+Infantry Squad
+Infantry Platoon
+Infantry Company
+Infantry Battalion
+Infantry Regiment
+Infantry Brigade
+Infantry Division
+Artillery Gun
+Artillery Squad
+Artillery Platoon
+Artillery Battery
+Artillery Division
+Artillery Regiment
+Artillery Brigade
+Recon Point
+Air Base
+Army Base
+Naval Base
+Medical Corps
+Bunker
+Tank
+Tank Subdivision
+Vehicle
+Vehicle Subdivision
+Fortification
+Fortification Subdivision
+Supply Depot
+Recon Squad
+Recon Vehicle
+Fighter Jet
+Fighter Jet Subdivision
+Bomber Aircraft
+Bomber Aircraft Subdivision
+Helicopter
+Helicopter Subdivision
+Transport Plane
+Transport Plane Subdivision
+Armored Vehicle Subdivision
+Combat Engineer
+Combat Engineer Subdivision
+Missile Launcher
+Missile Launcher Subdivision
+Supply Truck
+Supply Truck Subdivision
+Bridge Layer
+Bridge Layer Subdivision
+Recovery Vehicle
+Recovery Vehicle Subdivision
+Aircraft Carrier
+Destroyer
+Patrol Boat
+Command Post
+Communication Tower
+Radar Station
+Fuel Depot
+Ammunition Depot
+Field Hospital
+Maintenance Unit
+Field Kitchen
+Recovery Team
+Mortar Team
+Sniper Team
+Forward Observer
+Anti-Aircraft Gun
+Anti-Aircraft Gun Subdivision
+Communications Vehicle
+Communications Vehicle Subdivision
+Intelligence Unit
+Intelligence Unit Subdivision
+Drone
+Drone Subdivision
+Ambulance
+Ambulance Subdivision
+Workshop Vehicle
+Workshop Vehicle Subdivision
+Refueler
+Refueler Subdivision
+Mobile HQ
+Mobile HQ Subdivision
+Target Drone
+Target Drone Subdivision
+T-55
+T-62
+T-64
+BMP-1 IFV
+BMP-2 IFV
+BTR-60 APC
+BTR-80 APC
+BRDM-2 recon
+2S3 Akatsiya SPH
+2S4 Tyulpan SP mortar
+2S9 Nona SP mortar
+2S19 Msta SPH
+2B9 Vasilek 82mm mortar
+PM-38 120mm mortar
+PM-43 120mm mortar
+M-160 160mm mortar
+120-PM-43 120mm mortar
+Mi-24 Hind attack heli
+Mi-28 Havoc attack heli
+Su-25 Frogfoot ground-attack aircraft
+Su-27 Flanker fighter jet
+Tu-95 Bear strategic bomber
+Tu-160 Blackjack strategic bomber
+IL-76 Candid transport aircraft
+ZSU-23-4 Shilka SPAAG
+SA-4 Ganef SAM system
+S-200 Angara SAM system
+1S91 Straight Flush radar
+P-18 Spoon Rest radar
