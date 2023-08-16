@@ -51,47 +51,84 @@ void saveTargetParameters() {
 }
 
 void loadGunData() {
-
+    std::cout << chdir((project_path+"/object_data/guns").c_str());
+    std::vector<Gun> guns_from_files;
+    for(const auto& file: fs::directory_iterator(fs::current_path())) {
+        guns_from_files.push_back(gunFromJSON(file.path()));
+    }
+    for (const auto& gun : guns_from_files) {
+        gun_map.insert(std::make_pair(gun.getGunID(), gun));
+    }
+    chdir(project_path.c_str());
 }
 
 void loadTargetData() {
-
+    std::cout << chdir((project_path+"/object_data/targets").c_str());
+    std::vector<Target> targets_from_files;
+    for(const auto& file: fs::directory_iterator(fs::current_path())) {
+        targets_from_files.push_back(targetFromJSON(file.path()));
+    }
+    for (const auto& target : targets_from_files) {
+        target_map.insert(std::make_pair(target.getTargetID(), target));
+    }
+    chdir(project_path.c_str());
 }
 
 void loadTargetParameters() {
-
+    std::cout << chdir((project_path+"/object_data/parameters").c_str());
+    std::vector<GunTargetParameters> parameters_from_files;
+    for(const auto& file: fs::directory_iterator(fs::current_path())) {
+        parameters_from_files.push_back(targetParametersFromJSON(file.path()));
+    }
+    // TODO: write the insertion of target parameters into gun_target_parameters structure
+    chdir(project_path.c_str());
 }
 
-void insertGun() {
-
+void insertGun(const Gun& g) {
+    gun_map.insert(std::make_pair(g.getGunID(), g));
 }
 
-void insertTarget() {
-
+void insertTarget(const Target& t) {
+    target_map.insert(std::make_pair(t.getTargetID(), t));
 }
 
-void eraseGun(){
-
+void eraseGun(const Gun& g) {
+    if (gun_map.find(g.getGunID()) != gun_map.end()) {
+        gun_map.erase(g.getGunID());
+    } else throw std::runtime_error("can't erase from gun map: no such gun");
 }
 
-void eraseTarget(){
-
+void eraseTarget(const Target& t) {
+    if (target_map.find(t.getTargetID()) != target_map.end()) {
+        target_map.erase(t.getTargetID());
+    } else throw std::runtime_error("can't erase from target map: no such target");
 }
 
-void assignTargetForGun(){
-
+void assignTargetForGun(Gun& g, Target& t){
+    g.addTarget(t);
 }
 
-void dismissTargetForGun(){
-
+void dismissTargetForGun(Gun& g, Target& t){
+    g.removeTarget(t);
 }
 
-void printGunMission(){
+void dismissMissionForGun(Gun& g) {
+    g.removeAllTargets();
+}
 
+void dismissAllMissions() {
+    for(auto gun_pair : gun_map) {
+        gun_pair.second.removeAllTargets();
+    }
+}
+
+
+void printGunMission(const Gun& g){
+    
 }
 
 void printGuns(){
-
+    
 }
 
 void printTargets(){

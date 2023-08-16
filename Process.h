@@ -14,19 +14,23 @@ void setProjectPath();
 
 void clearProjectPath();
 
-void insertGun();
+void insertGun(const Gun& g);
 
-void insertTarget();
+void insertTarget(const Target& t);
 
-void eraseGun();
+void eraseGun(const Gun& g);
 
-void eraseTarget();
+void eraseTarget(const Target& t);
 
-void assignTargetForGun();
+void assignTargetForGun(Gun& g, Target& t);
 
-void dismissTargetForGun();
+void dismissTargetForGun(Gun& g, Target& t);
 
-void printGunMission();
+void dismissMissionForGun(Gun& g);
+
+void dismissAllMissions();
+
+void printGunMission(const Gun& g);
 
 void printGuns();
 
